@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Tahu Project",
+  "description": "Ini Adalah Ekstensi Gambar Beserta Quotesnya Programmed By ~ Agus Chandra",
+  "version": "0.5",
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  }
+}

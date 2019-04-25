@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bg8.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+  margin: 15% 0px auto;
+  padding: 20px 100px;
+  ;
+  font-weight: 100;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(14, 255, 143);
+  font-size: 36px;
+  font-weight: 100;
+}
+
+h2 span {
+  color: rgb(0, 255, 64);
+}
+
+.ling a {
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+  padding: 20px;
+  color: wheat;
+  transform: scale(1);
+  transition: .5s;
+  font-size: 16px;
+  z-index: 999;
+}
+
+.ling p {
+  position: absolute;
+  text-decoration: none;
+  top: 60px;
+  padding: 20px;
+  color: wheat;
+  font-size: 14px;
+}
+
+.ling a:hover {
+  transform: scale(1.1);
+  transition: .5s;
+  color: rgb(105, 238, 87);
+}
+
+.ling .baru {
+  position: absolute;
+  text-decoration: none;
+  top: 30px;
+  padding: 20px;
+  color: wheat;
+  transform: scale(1);
+  transition: .5s;
+  font-size: 16px;
+  z-index: 999;
+}
+
+.ling .baru:hover {
+  color: rgb(120, 87, 238);
+}
+
+.ling2 a {
+  position: absolute;
+  text-decoration: none;
+  top: 20px;
+  right: 10px;
+  padding: 10px;
+  color: wheat;
+  transition: .5s;
+  font-size: 15px;
+  z-index: 999;
+  transform: scale(0.9);
+}
+
+.ling2 .youtube {
+  position: absolute;
+  text-decoration: none;
+  top: 40px;
+  right: 10px;
+  padding: 10px;
+  color: wheat;
+  transition: .5s;
+  font-size: 15px;
+  z-index: 999;
+  transform: scale(0.9);
+}
+
+.ling2 .mywebsite {
+  position: absolute;
+  text-decoration: none;
+  top: 60px;
+  right: 10px;
+  padding: 10px;
+  color: wheat;
+  transition: .5s;
+  font-size: 15px;
+  z-index: 999;
+  transform: scale(0.9);
+}
+
+.ling2 p {
+  position: absolute;
+  text-decoration: none;
+  top: 20px;
+  padding: 20px;
+  color: wheat;
+  font-size: 1.8vh;
+}
+
+.ling2 a:hover {
+  transition: .5s;
+  color: rgb(92, 238, 87);
+  text-decoration: underline;
+  transform: scale(1);
+}
+
+.ikon img {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  width: 25px;
+  z-index: 9999;
+  transition: .5s;
+}
+
+.ikon img:hover {
+  transition: .5s;
+  transform: scale(1.4);
+}
+
+.ikon2 img {
+  position: absolute;
+  left: 53%;
+  top: 20px;
+  width: 25px;
+  z-index: 9999;
+  transition: .5s;
+}
+
+.ikon2 img:hover {
+  transition: .5s;
+  transform: scale(1.4);
+}
+
+.datadiri {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
+
+.datadiri p {
+  color: azure;
+  margin-left: 60px;
+  color: rgb(169, 228, 228);
+}
+
+.datadiri input[type="text"] {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px rgb(255, 255, 255) solid;
+  padding: 10px 10px;
+  color: aliceblue;
+}
+
+.datadiri a {
+  background: none;
+  border: none;
+  outline: none;
+  border: 2px rgb(255, 255, 255) solid;
+  padding: 10px 20px;
+  color: aliceblue;
+}
+
+footer {
+  color: aliceblue;
+  font-size: 2vh;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+#namamu {
+  position: absolute;
+  right: 30px;
+  top: 60px;
+  color: white;
+}
