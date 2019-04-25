@@ -5,7 +5,7 @@ Chrome Ekstensi Untuk Custom Tab Baru
 
 <h3>Cara Pakainya</h3>
 
-cari chrome extensions di url ketik chrome://extensions/
+cari chrome extensions di url ketik <a href='chrome://extensions/'>chrome://extensions/</a>
 
 aktifkan developer mode
 
